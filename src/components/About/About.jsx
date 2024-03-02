@@ -4,7 +4,7 @@
 import React from 'react'
 import { ReactTyped } from 'react-typed'
 import './About.css'
-import pic from 'public\assets\pic.png';
+import pic from '../assets/pic.png'
 const About = () => {
   return (
     <section  className='grid grid-cols-2 '>
