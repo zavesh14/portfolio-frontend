@@ -1,8 +1,10 @@
+/* eslint-disable no-useless-escape */
 /* eslint-disable react/no-unescaped-entities */
 /* eslint-disable no-unused-vars */
 import React from 'react'
 import { ReactTyped } from 'react-typed'
 import './About.css'
+import pic from 'public\assets\pic.png';
 const About = () => {
   return (
     <section  className='grid grid-cols-2 '>
@@ -22,7 +24,7 @@ const About = () => {
         </div>
       </div>
       <div className='sm:col-span-1 sm:p-10 sm:ml-16'>
-          <img className='w-25 rounded-lg' src="public\assets\pic.png" alt="" />
+          <img className='w-25 rounded-lg' src={pic} alt="" />
       </div>
     </section>
   )
