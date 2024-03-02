@@ -5,7 +5,7 @@ import './Data.css'
 
 const Data = () => {
   return (
-    <main id="about">
+    <main id="about bg-">
         <div className=''>
             <div className='text-center mb-20'>
                 <h1 className='md:text-5xl text-2xl'><strong><i>"Never Stop Learning"</i></strong></h1>
